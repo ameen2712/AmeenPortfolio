@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.left {
+    font-size: 20px;
+}
+
+.leftname {
+    font-size: 30px;
+    color: red;
+}
+
+.right {
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+nav {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    height: 120px;
+    margin-top: 30px;
+    margin-inline-end: 20px;
+    margin-left: 20px;
+    background-color: rgb(35, 34, 34);
+    border-radius: 20px;
+
+}
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(252, 1, 1);
+    font-size: 1.2rem;
+}
+
+/* section 1 */
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 0;
+    align-items: center;
+    margin-top: 150px;
+    position: relative;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: x-large;
+    width: 50%;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    display: inline;
+    border-radius: 50%;
+}
+
+.uppername {
+    text-align: center;
+}
+
+.name {
+    color: rgb(254, 0, 0);
+}
+
+.content {
+    align-items: center;
+    justify-content: center;
+}
+
+#element {
+    color: rgb(255, 42, 0);
+}
+
+nav ul li a i {
+    margin-right: 8px;
+    margin-top: 2px;
+    /* Adjust this value to increase or decrease the space between icons */
+}
+
+/* SEction 2 */
+.secondsection {
+    margin: auto;
+    max-width: 80vw;
+}
+
+.Profile {
+    margin-top: 40px;
+    font-size: xx-large;
+}
+
+.profilepara {
+    border-radius: 10px;
+    line-height: 35px;
+    background-color: rgb(35, 34, 34);
+    margin: 22px;
+    padding: 20px;
+}
+
+.About {
+    background-color: rgb(35, 34, 34);
+    margin: 22px;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 35px;
+
+}
+
+.icons {
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.fa-brands {
+    text-decoration: none;
+    color: white;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+/* skillsection */
+.skill-name {
+    margin-right: 10px;
+    width: 150px; 
+    /* Adjust the width as needed */
+    line-height: 35px;
+}
+
+.skill-bar {
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 5px;
+    line-height: 35px;
+}
+
+.skill-percent {
+    margin-left: 10px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.button {
+    padding: 15px;
+    align-content: center;
+    border-radius: 30px;
+    color: white;
+    margin-left: -10px;
+    background-color: rgb(35, 34, 34);
+    text-decoration: none;
+    border-top: none;
+    border-left: none;
+    margin-top: 15px;
+}
+.button:hover{
+    color: rgb(224, 139, 139);
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+  
+.card {
+    width: 18rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+  
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+  
+.card-img-top {
+    width: 100%;
+    height: 110px;
+    border-radius: 30px;
+}
+  
+.card-title {
+  font-size: larger;
+    margin: 20px 0 0;
+ }
+ #scrollToTopBtn {
+    width: 55px;
+    height: 56px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 115;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding-bottom: 8px;
+    border-radius: 90%;
+    font-size: 34px;
+   
+}
+/* .email{
+    text-decoration: none;
+    color: white;
+}
+.fa-solid fa-envelope{
+    text-decoration: none;
+    color: white;
+} */
+.container {
+    display: flex;
+    gap: 40px; /* Space between the form and the contact info */
+    align-items: flex-start; /* Align items at the top */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container, .contact-info {
+    background-color: rgb(35, 34, 34);
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    margin-top: 30px;
+    color: #ffffff; /* Ensure text color is readable on dark background */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ae3030;
+    color: rgb(35, 34, 34);
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  .gap{
+    padding: 10px;
+  }
+  .fa-solid{
+    margin:5px;
+  }
+  #maps{
+    margin-top: 10px;
+  }
+  .Footer{
+    background-color: rgb(35, 34, 34);
+    height: 350px;
+
+    font-size: x-large;
+    padding: 20px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+  }
+  .dec{
+    margin: 20px;
+  }
+  .Declaration{
+    font-size: large;
+    line-height: 35px;
+
+  }
+  .sign-dec {
+    position: absolute;
+    margin-left: 1046px;
+    margin-top: 81px;
+    font-weight: 100;
+}
+  .signimage{
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    margin-left: 62rem;
+    margin-top: -2px;
+}
